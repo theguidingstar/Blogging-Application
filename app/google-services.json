@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "224784419639",
+    "firebase_url": "https://socio-2c3aa.firebaseio.com",
+    "project_id": "socio-2c3aa",
+    "storage_bucket": "socio-2c3aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224784419639:android:673d353b792524cb",
+        "android_client_info": {
+          "package_name": "com.example.yashshah.blogger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224784419639-49bvsghhkelvrnei4bktf7qqcdicbpss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yashshah.blogger",
+            "certificate_hash": "9d877640844f2d1b4ff0d2d667deff888ca22370"
+          }
+        },
+        {
+          "client_id": "224784419639-rtlh96hab6i4e72kk0p0k3dkeub0nr9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr8jp0wOD_j3-6VSmzZOK2AfAyrP5104Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224784419639-rtlh96hab6i4e72kk0p0k3dkeub0nr9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

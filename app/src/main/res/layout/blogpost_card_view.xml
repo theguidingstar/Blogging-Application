@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_share"
+        android:layout_margin="3dp"
+        android:padding="10dp"
+        android:id="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/Profile_pic"
+        android:src="@drawable/ic_profile1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignStart="@+id/Post_image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName"
+        android:id="@+id/Username"
+        android:layout_toEndOf="@+id/Profile_pic"
+        android:layout_alignTop="@+id/Profile_pic"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Category"
+        android:layout_below="@+id/Username"
+        android:layout_alignStart="@+id/Username"
+        android:text="Category"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Category"
+        android:text="time Stamp"
+        android:id="@+id/TimeStamp"
+        android:layout_alignStart="@+id/Category"/>
+
+    <TextView
+        android:layout_alignStart="@+id/Profile_pic"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Profile_pic"
+        android:text="Zimbabwe won the fifth and final ODI by three wickets to record a come-from-behind 3-2 series win - their first on Sri Lankan soil Zimbabwe won the fifth and final ODI by three wickets to record a come-from-behind 3-2 series win - their first on Sri Lankan soil"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:id="@+id/Post_Heading"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/Post_Heading"
+        android:layout_margin="10dp"
+        android:id="@+id/Post_image"
+        android:scaleType="fitXY"
+        android:background="@drawable/picture1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#bebebe"
+        android:layout_below="@+id/Post_image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/Gap_post_row"
+        android:orientation="vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Gap_post_row"
+        android:weightSum="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.33"
+            android:padding="10dp"
+            android:src="@drawable/ic_like"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.33"
+            android:src="@drawable/ic_comment"
+            android:padding="10dp"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.33"
+            android:src="@drawable/ic_fav"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
